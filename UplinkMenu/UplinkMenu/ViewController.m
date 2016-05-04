@@ -29,6 +29,9 @@
     
     SubcategoryTableViewController* subcateVC=[[SubcategoryTableViewController alloc]init];
     
+    //添加导航栏后需要手动设置一下contentInset属性，否则会被遮住，但是第一个控件不需要自己设置
+    subcateVC.tableView.contentInset=UIEdgeInsetsMake(64, 0, 0, 0);
+    
     cateVC.delegate=subcateVC;
     
     subcateVC.view.frame=CGRectMake(self.view.bounds.size.width/2, 0, self.view.bounds.size.width/2, self.view.bounds.size.height);
