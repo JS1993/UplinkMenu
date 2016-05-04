@@ -26,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    self.tableView.tableFooterView=[[UIView alloc]init];
 }
 
 #pragma mark - Table view data source
@@ -52,8 +52,11 @@
     category* category=self.categories[indexPath.row];
     
     cell.imageView.image=[UIImage imageNamed:category.icon];
+    cell.imageView.highlightedImage=[UIImage imageNamed:category.highlighted_icon];
     
     cell.textLabel.text=category.name;
+    cell.textLabel.highlightedTextColor=[UIColor greenColor];
+    cell.textLabel.font=[UIFont systemFontOfSize:14];
     
     cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
     

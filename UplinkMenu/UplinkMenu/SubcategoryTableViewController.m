@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    self.tableView.tableFooterView=[[UIView alloc]init];
 }
 
 -(void)categoryTableViewController:(CategoryTableViewController *)categoryTableViewController didSelectedCellWithCategories:(NSArray *)categories{
@@ -45,6 +45,7 @@
     }
     
     cell.textLabel.text=self.subcategories[indexPath.row];
+    cell.textLabel.font=[UIFont systemFontOfSize:13];
     
     return cell;
 }
