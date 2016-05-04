@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF44E3241CD9C462009D2D9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44E3231CD9C462009D2D9C /* main.m */; };
+		CF44E3271CD9C462009D2D9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44E3261CD9C462009D2D9C /* AppDelegate.m */; };
+		CF44E32A1CD9C462009D2D9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44E3291CD9C462009D2D9C /* ViewController.m */; };
+		CF44E32D1CD9C462009D2D9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF44E32B1CD9C462009D2D9C /* Main.storyboard */; };
+		CF44E32F1CD9C462009D2D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF44E32E1CD9C462009D2D9C /* Assets.xcassets */; };
+		CF44E3321CD9C462009D2D9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF44E3301CD9C462009D2D9C /* LaunchScreen.storyboard */; };
+		CF44E33D1CD9C462009D2D9C /* UplinkMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44E33C1CD9C462009D2D9C /* UplinkMenuTests.m */; };
+		CF44E3481CD9C462009D2D9C /* UplinkMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44E3471CD9C462009D2D9C /* UplinkMenuUITests.m */; };
+		CF44E3571CD9C4A0009D2D9C /* CategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44E3561CD9C4A0009D2D9C /* CategoryTableViewController.m */; };
+		CF44E35A1CD9C4B3009D2D9C /* SubcategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44E3591CD9C4B3009D2D9C /* SubcategoryTableViewController.m */; };
+		CF44E35C1CD9C588009D2D9C /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF44E35B1CD9C588009D2D9C /* categories.plist */; };
+		CF44E35F1CD9C5D9009D2D9C /* category.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44E35E1CD9C5D9009D2D9C /* category.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF44E3391CD9C462009D2D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF44E3171CD9C462009D2D9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF44E31E1CD9C462009D2D9C;
+			remoteInfo = UplinkMenu;
+		};
+		CF44E3441CD9C462009D2D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF44E3171CD9C462009D2D9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF44E31E1CD9C462009D2D9C;
+			remoteInfo = UplinkMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF44E31F1CD9C462009D2D9C /* UplinkMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UplinkMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF44E3231CD9C462009D2D9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF44E3251CD9C462009D2D9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF44E3261CD9C462009D2D9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF44E3281CD9C462009D2D9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF44E3291CD9C462009D2D9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF44E32C1CD9C462009D2D9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF44E32E1CD9C462009D2D9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF44E3311CD9C462009D2D9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF44E3331CD9C462009D2D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF44E3381CD9C462009D2D9C /* UplinkMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UplinkMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF44E33C1CD9C462009D2D9C /* UplinkMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UplinkMenuTests.m; sourceTree = "<group>"; };
+		CF44E33E1CD9C462009D2D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF44E3431CD9C462009D2D9C /* UplinkMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UplinkMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF44E3471CD9C462009D2D9C /* UplinkMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UplinkMenuUITests.m; sourceTree = "<group>"; };
+		CF44E3491CD9C462009D2D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF44E3551CD9C4A0009D2D9C /* CategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTableViewController.h; sourceTree = "<group>"; };
+		CF44E3561CD9C4A0009D2D9C /* CategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTableViewController.m; sourceTree = "<group>"; };
+		CF44E3581CD9C4B3009D2D9C /* SubcategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubcategoryTableViewController.h; sourceTree = "<group>"; };
+		CF44E3591CD9C4B3009D2D9C /* SubcategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubcategoryTableViewController.m; sourceTree = "<group>"; };
+		CF44E35B1CD9C588009D2D9C /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		CF44E35D1CD9C5D9009D2D9C /* category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = category.h; sourceTree = "<group>"; };
+		CF44E35E1CD9C5D9009D2D9C /* category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = category.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF44E31C1CD9C462009D2D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF44E3351CD9C462009D2D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF44E3401CD9C462009D2D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF44E3161CD9C462009D2D9C = {
+			isa = PBXGroup;
+			children = (
+				CF44E3211CD9C462009D2D9C /* UplinkMenu */,
+				CF44E33B1CD9C462009D2D9C /* UplinkMenuTests */,
+				CF44E3461CD9C462009D2D9C /* UplinkMenuUITests */,
+				CF44E3201CD9C462009D2D9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF44E3201CD9C462009D2D9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF44E31F1CD9C462009D2D9C /* UplinkMenu.app */,
+				CF44E3381CD9C462009D2D9C /* UplinkMenuTests.xctest */,
+				CF44E3431CD9C462009D2D9C /* UplinkMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF44E3211CD9C462009D2D9C /* UplinkMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CF44E3251CD9C462009D2D9C /* AppDelegate.h */,
+				CF44E3261CD9C462009D2D9C /* AppDelegate.m */,
+				CF44E3281CD9C462009D2D9C /* ViewController.h */,
+				CF44E3291CD9C462009D2D9C /* ViewController.m */,
+				CF44E32B1CD9C462009D2D9C /* Main.storyboard */,
+				CF44E32E1CD9C462009D2D9C /* Assets.xcassets */,
+				CF44E3301CD9C462009D2D9C /* LaunchScreen.storyboard */,
+				CF44E3331CD9C462009D2D9C /* Info.plist */,
+				CF44E3221CD9C462009D2D9C /* Supporting Files */,
+				CF44E3551CD9C4A0009D2D9C /* CategoryTableViewController.h */,
+				CF44E3561CD9C4A0009D2D9C /* CategoryTableViewController.m */,
+				CF44E3581CD9C4B3009D2D9C /* SubcategoryTableViewController.h */,
+				CF44E3591CD9C4B3009D2D9C /* SubcategoryTableViewController.m */,
+				CF44E35D1CD9C5D9009D2D9C /* category.h */,
+				CF44E35E1CD9C5D9009D2D9C /* category.m */,
+			);
+			path = UplinkMenu;
+			sourceTree = "<group>";
+		};
+		CF44E3221CD9C462009D2D9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF44E35B1CD9C588009D2D9C /* categories.plist */,
+				CF44E3231CD9C462009D2D9C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF44E33B1CD9C462009D2D9C /* UplinkMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF44E33C1CD9C462009D2D9C /* UplinkMenuTests.m */,
+				CF44E33E1CD9C462009D2D9C /* Info.plist */,
+			);
+			path = UplinkMenuTests;
+			sourceTree = "<group>";
+		};
+		CF44E3461CD9C462009D2D9C /* UplinkMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF44E3471CD9C462009D2D9C /* UplinkMenuUITests.m */,
+				CF44E3491CD9C462009D2D9C /* Info.plist */,
+			);
+			path = UplinkMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF44E31E1CD9C462009D2D9C /* UplinkMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF44E34C1CD9C462009D2D9C /* Build configuration list for PBXNativeTarget "UplinkMenu" */;
+			buildPhases = (
+				CF44E31B1CD9C462009D2D9C /* Sources */,
+				CF44E31C1CD9C462009D2D9C /* Frameworks */,
+				CF44E31D1CD9C462009D2D9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UplinkMenu;
+			productName = UplinkMenu;
+			productReference = CF44E31F1CD9C462009D2D9C /* UplinkMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF44E3371CD9C462009D2D9C /* UplinkMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF44E34F1CD9C462009D2D9C /* Build configuration list for PBXNativeTarget "UplinkMenuTests" */;
+			buildPhases = (
+				CF44E3341CD9C462009D2D9C /* Sources */,
+				CF44E3351CD9C462009D2D9C /* Frameworks */,
+				CF44E3361CD9C462009D2D9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF44E33A1CD9C462009D2D9C /* PBXTargetDependency */,
+			);
+			name = UplinkMenuTests;
+			productName = UplinkMenuTests;
+			productReference = CF44E3381CD9C462009D2D9C /* UplinkMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF44E3421CD9C462009D2D9C /* UplinkMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF44E3521CD9C462009D2D9C /* Build configuration list for PBXNativeTarget "UplinkMenuUITests" */;
+			buildPhases = (
+				CF44E33F1CD9C462009D2D9C /* Sources */,
+				CF44E3401CD9C462009D2D9C /* Frameworks */,
+				CF44E3411CD9C462009D2D9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF44E3451CD9C462009D2D9C /* PBXTargetDependency */,
+			);
+			name = UplinkMenuUITests;
+			productName = UplinkMenuUITests;
+			productReference = CF44E3431CD9C462009D2D9C /* UplinkMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF44E3171CD9C462009D2D9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF44E31E1CD9C462009D2D9C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF44E3371CD9C462009D2D9C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF44E31E1CD9C462009D2D9C;
+					};
+					CF44E3421CD9C462009D2D9C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF44E31E1CD9C462009D2D9C;
+					};
+				};
+			};
+			buildConfigurationList = CF44E31A1CD9C462009D2D9C /* Build configuration list for PBXProject "UplinkMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF44E3161CD9C462009D2D9C;
+			productRefGroup = CF44E3201CD9C462009D2D9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF44E31E1CD9C462009D2D9C /* UplinkMenu */,
+				CF44E3371CD9C462009D2D9C /* UplinkMenuTests */,
+				CF44E3421CD9C462009D2D9C /* UplinkMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF44E31D1CD9C462009D2D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF44E35C1CD9C588009D2D9C /* categories.plist in Resources */,
+				CF44E3321CD9C462009D2D9C /* LaunchScreen.storyboard in Resources */,
+				CF44E32F1CD9C462009D2D9C /* Assets.xcassets in Resources */,
+				CF44E32D1CD9C462009D2D9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF44E3361CD9C462009D2D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF44E3411CD9C462009D2D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF44E31B1CD9C462009D2D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF44E32A1CD9C462009D2D9C /* ViewController.m in Sources */,
+				CF44E3571CD9C4A0009D2D9C /* CategoryTableViewController.m in Sources */,
+				CF44E35A1CD9C4B3009D2D9C /* SubcategoryTableViewController.m in Sources */,
+				CF44E35F1CD9C5D9009D2D9C /* category.m in Sources */,
+				CF44E3271CD9C462009D2D9C /* AppDelegate.m in Sources */,
+				CF44E3241CD9C462009D2D9C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF44E3341CD9C462009D2D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF44E33D1CD9C462009D2D9C /* UplinkMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF44E33F1CD9C462009D2D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF44E3481CD9C462009D2D9C /* UplinkMenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF44E33A1CD9C462009D2D9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF44E31E1CD9C462009D2D9C /* UplinkMenu */;
+			targetProxy = CF44E3391CD9C462009D2D9C /* PBXContainerItemProxy */;
+		};
+		CF44E3451CD9C462009D2D9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF44E31E1CD9C462009D2D9C /* UplinkMenu */;
+			targetProxy = CF44E3441CD9C462009D2D9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF44E32B1CD9C462009D2D9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF44E32C1CD9C462009D2D9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF44E3301CD9C462009D2D9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF44E3311CD9C462009D2D9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF44E34A1CD9C462009D2D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF44E34B1CD9C462009D2D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF44E34D1CD9C462009D2D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UplinkMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.UplinkMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF44E34E1CD9C462009D2D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UplinkMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.UplinkMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF44E3501CD9C462009D2D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UplinkMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.UplinkMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UplinkMenu.app/UplinkMenu";
+			};
+			name = Debug;
+		};
+		CF44E3511CD9C462009D2D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UplinkMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.UplinkMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UplinkMenu.app/UplinkMenu";
+			};
+			name = Release;
+		};
+		CF44E3531CD9C462009D2D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UplinkMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.UplinkMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UplinkMenu;
+			};
+			name = Debug;
+		};
+		CF44E3541CD9C462009D2D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UplinkMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.UplinkMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UplinkMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF44E31A1CD9C462009D2D9C /* Build configuration list for PBXProject "UplinkMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF44E34A1CD9C462009D2D9C /* Debug */,
+				CF44E34B1CD9C462009D2D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF44E34C1CD9C462009D2D9C /* Build configuration list for PBXNativeTarget "UplinkMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF44E34D1CD9C462009D2D9C /* Debug */,
+				CF44E34E1CD9C462009D2D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF44E34F1CD9C462009D2D9C /* Build configuration list for PBXNativeTarget "UplinkMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF44E3501CD9C462009D2D9C /* Debug */,
+				CF44E3511CD9C462009D2D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF44E3521CD9C462009D2D9C /* Build configuration list for PBXNativeTarget "UplinkMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF44E3531CD9C462009D2D9C /* Debug */,
+				CF44E3541CD9C462009D2D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF44E3171CD9C462009D2D9C /* Project object */;
+}
